@@ -15,12 +15,61 @@
                 39235 Kalmar
             </p>
         
+        <!- Formulärkontroller börjar här--> 
+        
+        <p>OBS!! Påhittat kontaktformulär</p>
+            <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+
+                    <fieldset>
+                        <label for="name">Namn:</label>
+                        <input type="text" name="name" id="name" value="Ditt namn" />
+                    <br>
+                    <label for="location">Är du</label>
+                            <select name="location" id="location">
+                            <option value="">Välj</option>
+                            <option value="Student">Student</option>
+                            <option value="Lärare">Lärare</option>
+                            <option value="Besökare">Besökare</option>
+                    <br>
+                    
+                        <label for="email">Email:</label>
+                        <input type="text" name="email" id="email" value="Ange mailadress" />
+                    <br>
+                    
+                        <label for="comments">Kommentar:</label>
+                        <textarea name="comments" id="comments" cols="25" rows="3"></textarea>
+                    <br>
+                    
+                        
+                    </fieldset>
+                    <br>
+                    
+                    
+                    
+                    <fieldset>
+                    <legend>Information om dig</legend>
+                
+                    <label for="Mail:">Kontakta mig via mail</label><input type="radio" name="Mail" id="Mail:">
+                    <br>
+                    <label for="Tele:">Kontakta mig via telefon</label><input type="radio" name="tele" id="Tele:">
+                </fieldset>
+              <p></p>    
+                
+                        <input type="submit" value="Skicka" />
+                        <input type="reset" value="Nollställ" />
+                  
+                        
+                </select>
+</ul>
+
+    </form>
+        
         
         <a href="../index.html">Hem</a><br>
         <a href="presentation.html">Presentation</a><br>
         <a href="Laborationer.html">Laborationer</a><br>
         <a href="kontakt.html">Kontakter</a><br>
         
-        
+        <input type="hidden" name="redirect" value="" />
      </body>
 </html>
