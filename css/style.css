@@ -26,7 +26,18 @@ a:active   {color: black; }
         margin: 0 auto;
     }
     
-#menu {
+#body {
+        border:3px solid;
+        border-radius: 0px;
+        border-color: black;
+        color: #9ba;
+        margin-right: auto;
+        margin-left: auto;
+        background: gray;
+        padding: 20px 20px;
+    }    
+        
+#menu {        
         border:3px solid;
         border-radius: 0px;
         border-color: black;
@@ -35,10 +46,20 @@ a:active   {color: black; }
         margin-left: auto;
         background: white;
         padding: 20px 20px;
-}    
+        float: left;
+        text-shadow: 3px 3px 3px black;
+    }
     
+#footer {
+        border: 2px solid;
+        border-radius: 0px 0px 20px 20px;
+        border-color: black;
+        clear:both;
+        background: gray;
     
-    
-    
-    
-    
+        }     
+    .Footertext {
+        text-align: center;
+        }
+        
+        I { text-align: center; } 
