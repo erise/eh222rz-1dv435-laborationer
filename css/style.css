@@ -31,22 +31,50 @@ a:active   {color: black; }
         border:3px solid;
         border-radius: 0px;
         border-color: black;
-        width: 250;
-        height: 600;
+        width: 248px;
+        height: auto;
         margin-left: auto;
-        background: white;
+        background: gray;
         padding: 20px 20px;
         float: left;
-        text-shadow: 3px 3px 3px black;
+        text-shadow: 3px 3px 3px white;
     }
+      } 
+    #menu ul {
+        Height: auto;
+        width: auto;
+        margin: center;
+        padding: 8px 0px;
+    } 
+      
+    #menu li {
+        display: block;
+        width: 300px;
+        padding: 10px;
+    }
+    #menu a{
+        text-decoration: none;
+        font-size: 2em;
+    }
+    #menu a:hover{
+        color: red;
+        background-color: white;
+    }
+    #menu a:active{
+        background-color: gray;
+    }
+    #menu a:visited{
+        background-color: gray;
+    }
+    
     
     
 #body {
         border:3px solid;
-        border-radius: 0px;
+        border-radius: 0px 70px 0px 0px;
         border-color: black;
-        width: 600;
-        height: 600;
+        width: 600px;
+        height: auto;
         background: gray;
         float: right;
         }    
@@ -65,3 +93,9 @@ a:active   {color: black; }
         }
         
         I { text-align: center; } 
+        
+        
+        
+h1 {
+    text-align: center;
+}
