@@ -1,16 +1,22 @@
-/*
-a:link   {color: Blue; }
-a:visited   {color: purple; }
-a:focus   {color: green; }
-a:hover   {color: white; }
-a:active   {color: black; }
-*/
-
+                                            /* Bakgrund till allt */
+                                    
+#bakgrund {
+            background: url(pics/bakgrunden.jpg) no-repeat center center fixed; 
+            background-size: cover;
+            
+            
+            
+           
+}
+                                                /* wrap */
 #wrap {
         width: 900px;
         margin: 0 auto;
+        
+        border-radius: 70px;
+       
         }
-    
+                                                /* LOGGAN */
 #header {
         border:3px solid;
         border-radius: 70px;
@@ -26,7 +32,7 @@ a:active   {color: black; }
         display: block;
         margin: 0 auto;
     }
-
+                                              /* Menyinställningar */
 #menu {        
         border:3px solid;
         border-radius: 0px;
@@ -34,51 +40,49 @@ a:active   {color: black; }
         width: 248px;
         height: auto;
         margin-left: auto;
-        background: gray;
+        background: silver;
         padding: 20px 20px;
         float: left;
         text-shadow: 3px 3px 3px white;
+        }
+   
+#menu a {
+    text-decoration: none;
+    font-size: 2em;
     }
-      } 
-    #menu ul {
-        Height: auto;
-        width: auto;
-        margin: center;
-        padding: 8px 0px;
-    } 
-      
-    #menu li {
-        display: block;
-        width: 300px;
-        padding: 10px;
-    }
-    #menu a{
-        text-decoration: none;
-        font-size: 2em;
-    }
-    #menu a:hover{
-        color: red;
-        background-color: white;
-    }
-    #menu a:active{
-        background-color: gray;
-    }
-    #menu a:visited{
-        background-color: gray;
+  
+#menu link {
+    display: block;
+    width: 300px;
+    padding: 10px;
     }
     
+#menu a:visited {
+    background-color: white; 
+    }   
     
+#menu a:hover{
+    color: blue;
+    background-color: white;
+    }
     
+#menu a:active{
+    background: #29abe2;
+  color: #fff;;
+    }
+
+ 
+                                            /* Informationsdelen */
 #body {
         border:3px solid;
         border-radius: 0px 70px 0px 0px;
         border-color: black;
         width: 600px;
         height: auto;
-        background: gray;
+        background-color: #ccc;
         float: right;
         }    
-        
+                                            /* stycket längst ner */
 
 #footer {
         border: 2px solid;
@@ -94,8 +98,42 @@ a:active   {color: black; }
         
         I { text-align: center; } 
         
-        
+                                                /* ÖVERSKRIFTER */
         
 h1 {
-    text-align: center;
+    font: italic bold 30px Verdana, Helvetica, Arial, sans-serif;
+    
 }
+
+h2 {
+	font: bold 2em Times, Garamond;
+	text-align: center;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
