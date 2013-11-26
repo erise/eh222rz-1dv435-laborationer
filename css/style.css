@@ -6,29 +6,36 @@ a:hover   {color: white; }
 a:active   {color: black; }
 */
 
-body {
-    background:white;
-    } 
+#wrap {
+        width: 1000px;
+        margin: 0 auto;
+        }
     
-    
-h1 {color: #9fF;
-    background-color: #CDF;
+#header {
+        border:3px solid;
+        border-radius: 70px;
+        border-color: black;
+        color: #9ba;
+        margin-right: auto;
+        margin-left: auto;
+        background: white;
+        padding: 20px 20px;
+        }    
+    .logo {
+        display: block;
+        margin: 0 auto;
     }
     
-
-#body {background-color: white;}    
-    .blogpost {
-        background-color: yellow;
-        margin-bottom: 10px;
-    }    
-    
-    
-    
-    
-    
-    
-    
-    
+#menu {
+        border:3px solid;
+        border-radius: 0px;
+        border-color: black;
+        color: #9ba;
+        margin-right: auto;
+        margin-left: auto;
+        background: white;
+        padding: 20px 20px;
+}    
     
     
     
