@@ -7,7 +7,7 @@ a:active   {color: black; }
 */
 
 #wrap {
-        width: 1000px;
+        width: 900px;
         margin: 0 auto;
         }
     
@@ -19,30 +19,20 @@ a:active   {color: black; }
         margin-right: auto;
         margin-left: auto;
         background: white;
+        float: center;
         padding: 20px 20px;
         }    
     .logo {
         display: block;
         margin: 0 auto;
     }
-    
-#body {
-        border:3px solid;
-        border-radius: 0px;
-        border-color: black;
-        color: #9ba;
-        margin-right: auto;
-        margin-left: auto;
-        background: gray;
-        padding: 20px 20px;
-    }    
-        
+
 #menu {        
         border:3px solid;
         border-radius: 0px;
         border-color: black;
-        color: #9ba;
-        margin-right: auto;
+        width: 250;
+        height: 600;
         margin-left: auto;
         background: white;
         padding: 20px 20px;
@@ -50,9 +40,21 @@ a:active   {color: black; }
         text-shadow: 3px 3px 3px black;
     }
     
+    
+#body {
+        border:3px solid;
+        border-radius: 0px;
+        border-color: black;
+        width: 600;
+        height: 600;
+        background: gray;
+        float: right;
+        }    
+        
+
 #footer {
         border: 2px solid;
-        border-radius: 0px 0px 20px 20px;
+        border-radius: 0px 0px 70px 70px;
         border-color: black;
         clear:both;
         background: gray;
