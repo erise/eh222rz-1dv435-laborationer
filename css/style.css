@@ -63,7 +63,7 @@
   
 
 #menu a:visited {
-    background-color: white; 
+    background-color: silver; 
     }   
     
 #menu a:hover{
@@ -73,10 +73,19 @@
     
 #menu a:active{
     background: #29abe2;
-  color: #fff;;
+  color: #fff;
     }
 
  
+#hem    {
+        color: white;
+        line-height:40px;
+        display:inline-block;
+        background: #333;
+       
+        text-decoration:none;
+        text-shadow: 3px 3px 3px gray;
+}
                                             /* Informationsdelen */
 #body {
         border:3px solid;
@@ -180,13 +189,6 @@ h2 {
 
 
 
-#hem    {
-        background-color: #FFFF66; 
-        width:150px;
-        color: white;
-        text-decoration:none;
-    
-}
 
 
 
