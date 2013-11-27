@@ -1,7 +1,7 @@
                                             /* Bakgrund till allt */
                                     
 #bakgrund {
-            background: url(pics/bakgrunden.jpg) no-repeat center center fixed; 
+            background: url(pics/bakkgrunden.jpg) no-repeat center center fixed; 
             background-size: cover;
             
             
@@ -41,7 +41,7 @@
         height: 420px;
         margin-left: auto;
         background: silver;
-        background-image: url(pics/123smile.jpg);
+        background-image: url(pics/Untitled.png);
         background-position: bottom;
         background-size:290px 290px;
         background-repeat:no-repeat;
