@@ -24,7 +24,7 @@
         color: #9ba;
         margin-right: auto;
         margin-left: auto;
-        background: white;
+        background: url(pics/menybild.jpg);
         float: center;
         padding: 20px 20px;
         }    
@@ -38,9 +38,14 @@
         border-radius: 0px;
         border-color: black;
         width: 248px;
-        height: auto;
+        height: 420px;
         margin-left: auto;
         background: silver;
+        background-image: url(pics/123smile.jpg);
+        background-position: bottom;
+        background-size:290px 290px;
+        background-repeat:no-repeat;
+        
         padding: 20px 20px;
         float: left;
         text-shadow: 3px 3px 3px white;
@@ -102,7 +107,8 @@
         
 h1 {
     font: italic bold 30px Verdana, Helvetica, Arial, sans-serif;
-    
+    text-align: center;
+    font-size: 5em;
 }
 
 h2 {
