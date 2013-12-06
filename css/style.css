@@ -1,3 +1,5 @@
+                               
+                               
                                             /* Bakgrund till allt */
                                     
 #bakgrund {
@@ -33,29 +35,60 @@
         display: block;
         margin: 0 auto;
     }
+      
+      
+      
+      
+                                              /* SPRITES */
+      
+#sprite a{
+	background-image: url('pics/sprite.png');
+	width: 24px;
+	height: 24px;
+	display:block;
+	text-indent: 24px;
+}         
+#sprite li {
+            
+            list-style-type:none;
+            margin-top:10px;
+            margin-left:-25px;
+    
+}
+#hemikon {background-position: 0 0;}
+#hemikon:hover {background-position: -24px -48px;}
+
+#bildikon {background-position: 0 -192px;}
+#bildikon:hover {background-position: 0 -240px;}
+
+#hammarikon {background-position: 0 -96px;}
+#hammarikon:hover {background-position: 0 -144px;}
+
+#brevikon {background-position: 0 -288px;}
+#brevikon:hover {background-position: 0 -336px;}
+      
+      
+      
+      
+      
                                               /* Menyinställningar */
 #menu {        
         float: left;    
         border:3px solid;
         border-radius: 0px;
         border-color: black;
-        width: 248px;
-        height: 420px;
+        width: 268px;
+        height: 460px;
         background: silver;
         background-image: url(pics/Untitled.png);
         background-position: bottom;
         background-size:290px 290px;
         background-repeat:no-repeat;
         position:absolute;
-        padding: 20px 20px;
+        padding: 5px 10px;
         
         text-shadow: 3px 3px 3px white;
-        }
-
-
-   
-   
-   
+    }
 #menu a {
     text-decoration: none;
     font-size: 2em;
@@ -71,12 +104,19 @@
     background-color: white;
     }
     
-#menu a:active{
-    background: #29abe2;
+.active{
+        text-align:right;
+    background: black;
   color: #fff;
     }
+#menu li {
+    list-style-image: none;
+  list-style: none;
+  list-style-type: none;
+}
 
- 
+
+
 #hem    {
         color: white;
         line-height:40px;
