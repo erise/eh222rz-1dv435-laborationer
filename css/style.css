@@ -92,6 +92,7 @@
 #menu a {
     text-decoration: none;
     font-size: 2em;
+    display: block;
     }
   
 
@@ -100,14 +101,14 @@
     }   
     
 #menu a:hover{
-    color: blue;
+    color: black;
     background-color: white;
     }
     
 .active{
         text-align:right;
-    background: black;
-  color: #fff;
+        color: #fff;
+        background: black;
     }
 #menu li {
     list-style-image: none;
