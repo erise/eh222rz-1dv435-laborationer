@@ -73,6 +73,7 @@
       
                                               /* Menyinställningar */
 #menu {        
+        clear:both;
         float: left;    
         border:3px solid;
         border-radius: 0px;
@@ -86,7 +87,7 @@
         background-repeat:no-repeat;
         position:absolute;
         padding: 5px 10px;
-        
+         
         text-shadow: 3px 3px 3px white;
     }
 #menu a {
@@ -130,7 +131,7 @@
 #body {
         
         border:3px solid;
-        border-radius: 0px 70px 70px 0px;
+        border-radius: 0 70px 70px 0;
         border-color: black;
         width: 600px;
         height: auto;
@@ -173,15 +174,17 @@ h2 {
 
 #tabell {
         border: 1px blue;
-        
         border-collapse: collapse;
         
         
         
 }
 
+
+
+
 #tabell td {
-        background: silver;
+        background: white;
         width: 10rem;
         height: 2rem;
         border: 1px solid #ccc;
@@ -204,13 +207,13 @@ h2 {
 #tabell tr {
         background: lightblue;
         width:100%;
+        
 }
 
 
 
 #tabellbak {
         border:2px solid;
-        background: none;
         width: 560px;
         
         
@@ -227,7 +230,12 @@ h2 {
 
 
 
-
+#Tabellen {
+     display: none;
+        
+    
+    
+}
 
 
 
