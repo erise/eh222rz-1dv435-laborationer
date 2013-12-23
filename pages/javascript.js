@@ -16,8 +16,7 @@ function toggle_visibility(id) {
 
 
 
-
-
+// VALUTAKONVERTERARE
 
 
 
@@ -37,30 +36,26 @@ function toggle_visibility(id) {
 
 // BILDVÄXLARE
 
-var img1=new Image();
-img1.src="../pics/unicooorn.jpg";
-var img2=new Image();
-img2.src="../pics/penguins.jpg";
-var img3=new Image();
-img2.src="../pics/tulips.jpg";
-var img4=new Image();
-img4.src="../pics/cover.jpg";
+var image1=new Image ()
+image1.src="../pics/asda.jpg"
 
-var pic=1;
-function slides() {
-    if (!document.images)
-    return;
-    document.images.slide.src=eval("img"+pic+".src");
-    
-    if (pic <4)
-        pic++;
-    
+var image2=new Image ()
+image2.src="../pics/asdasd.jpg"
+
+var image3=new Image ()
+image3.src="../pics/unicooorn.jpg"
+
+var step=1
+function slideit (){
+    document.images.slide.src=eval ("image"+step+".src");
+    if(step<3)
+    step++
     else
-        pic = 1;
-        setTimeout("slides()", 2000);
+    step=1
+    setTimeout("slideit()",2000)
 }
+slideit();
 
-slides();
 
 
 
