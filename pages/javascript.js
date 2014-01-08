@@ -24,29 +24,31 @@ function calculation() {
     var currency2 = document.getElementById('select2').value;
 
     switch (currency1 + ' ' + currency2) {
-        case "pound pound":
+        case "dollar dollar":
             var y = amount * 1;
-            document.getElementById('result').innerHTML = "&pound; " + parseFloat(Math.round(y * 100) / 100).toFixed(2);
+            document.getElementById('result').innerHTML = "&dollar; " + parseFloat(Math.round(y * 100) / 100).toFixed(2);
             break
-        case "pound real":
-            var x = currency2 = 3.40;
-            var y = amount * x;
-            document.getElementById('result').innerHTML = "R$ " + parseFloat(Math.round(y * 100) / 100).toFixed(2);
+        case "dollar euro":
+            var x = currency2 = 1;
+            var y = amount * 0.73;
+            document.getElementById('result').innerHTML = "&euro; " + parseFloat(Math.round(y * 100) / 100).toFixed(2);
             break
-        case "real real":
+        case "euro euro":
             var y = amount * 1;
-            document.getElementById('result').innerHTML = "R$ " + parseFloat(Math.round(y * 100) / 100).toFixed(2);
+            document.getElementById('result').innerHTML = "&euro; " + parseFloat(Math.round(y * 100) / 100).toFixed(2);
             break
-        case "real pound":
-            var x = currency2 = 3.40;
+        case "euro dollar":
+            var x = currency2 = 0.73;
             var y = amount / x;
-            document.getElementById('result').innerHTML = "&pound; " + parseFloat(Math.round(y * 100) / 100).toFixed(2);
+            document.getElementById('result').innerHTML = "&dollar; " + parseFloat(Math.round(y * 100) / 100).toFixed(2);
     }
 }
 
 
 // 1 euro = 1,36 dollar
-// 1 dollar = 0,73 euro
+// 1 dollar = 0,73 euro 
+// 2 euro = 2.72 dollar
+// 2 dollar = 1.46 euro
 
 
 
