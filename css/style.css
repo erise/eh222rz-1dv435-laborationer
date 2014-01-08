@@ -81,7 +81,7 @@
         width: 268px;
         height: 460px;
         background: silver;
-        background-image: url(pics/Untitled.png);
+        background-image: url(pics/unicooorn.jpg);
         background-position: bottom;
         background-size:290px 290px;
         background-repeat:no-repeat;
@@ -238,6 +238,8 @@ h2 {
 }
 
 
-
+#powerd {
+    border:2px solid;
+}
 
 
