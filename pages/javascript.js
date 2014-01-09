@@ -45,6 +45,8 @@ function calculation() {
 }
 
 
+
+
 // 1 euro = 1,36 dollar
 // 1 dollar = 0,73 euro 
 // 2 euro = 2.72 dollar
